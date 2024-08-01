@@ -28,6 +28,8 @@ function Projects() {
               title="Smart Commute App"
               description="It is full stack app using ReactJS, NodeJS and
               MongoDB. In this project I also intergate various APIs to display route between two locations, nearby point-of-interest, weather and AQI."
+              link="https://example.com"
+              linkText="View Project"
             />
           </Col>
 
@@ -37,6 +39,8 @@ function Projects() {
               isBlog={false}
               title="Railway Reservation System"
               description="It is a web app create using Java Maven where I use MySQL as data storage. In this prroject User can serach train between two stations and book tickets."
+              link="https://example.com"
+              linkText="View Project"
             />
           </Col>
 
@@ -46,6 +50,8 @@ function Projects() {
               isBlog={false}
               title="Online Exam Portal"
               description="It is a web app create using HTML,CSS and Javascript for frontend, for backend I use PHP and for storage I use MySQL. In this project user can give exam and also check the result"            
+              link="https://example.com"
+              linkText="View Project"
             />
           </Col>
 
@@ -55,6 +61,8 @@ function Projects() {
               isBlog={false}
               title="Online Notice Board"
               description="It is a web app create using HTML,CSS and Javascript for frontend, for backend I use PHP and for storage I use MySQL."
+              link="https://example.com"
+              linkText="View Project"
             />
           </Col>
 
@@ -64,6 +72,8 @@ function Projects() {
               isBlog={false}
               title="Fitness Tracker"
               description="A user-friendly Next.js based web app aiding progress tracking, goal management, and efficient navigation to enhance productivity and goal achievement."
+              link="https://example.com"
+              linkText="View Project"
             />
           </Col>
         </Row>

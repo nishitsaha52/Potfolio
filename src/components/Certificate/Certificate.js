@@ -27,6 +27,8 @@ function Certificate() {
               isBlog={false}
               title="Deloitte Virtual Internship-
               Deloitte Australia-2023"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -36,6 +38,8 @@ function Certificate() {
               isBlog={false}
               title="AWS Certificate Security -
               Infosys Springboard"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -45,6 +49,8 @@ function Certificate() {
               isBlog={false}
               title="Artificial Intelligence-
               Cognizant"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -54,6 +60,8 @@ function Certificate() {
               isBlog={false}
               title="Introduction to Machine Learning
               -Infosys Springboard"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -63,6 +71,8 @@ function Certificate() {
               isBlog={false}
               title="Introduction to HTML5
               -University of Michigan"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -72,6 +82,8 @@ function Certificate() {
               isBlog={false}
               title="Microsoft Azure AI Fundamentals
               -Microsoft Inc."
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -81,6 +93,8 @@ function Certificate() {
               isBlog={false}
               title="Microsoft Azure Fundamentals
               -Microsoft Inc."
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
 
@@ -90,8 +104,22 @@ function Certificate() {
               isBlog={false}
               title="Google Data Analytics
               -Google LLC"
+              link="https://example.com"
+              linkText="View Certificate"
             />
           </Col>
+
+          <Col md={4} className="Certificate-card">
+            <ProjectCard
+              imgPath={info}
+              isBlog={false}
+              title="Introduction to Machine Learning
+              -Infosys Springboard"
+              link="https://example.com"
+              linkText="View Certificate"
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>
