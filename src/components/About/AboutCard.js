@@ -16,8 +16,9 @@ function AboutCard() {
             I have completed BCA on 2022 from Techno Institute of Technology.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from <span className="purple">Coding</span>, some other activities that I love to do!
           </p>
+          <span className="purple">
           <ul>
             <li className="about-activity">
               <ImPointRight /> Photography
@@ -29,8 +30,8 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
+          </span>
+          <p style={{ color: "#40E0D0" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
           <footer className="blockquote-footer">Nishit</footer>

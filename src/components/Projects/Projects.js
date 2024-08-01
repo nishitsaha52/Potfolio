@@ -8,8 +8,26 @@ import pro3 from "../../Assets/Projects/pro3.jpg";
 import pro4 from "../../Assets/Projects/pro4.png";
 import pro5 from "../../Assets/Projects/pro5.png";
 
-
 function Projects() {
+  const titleStyle = {
+    color: "#FFD700", // Gold color for title
+  };
+
+  const durationStyle = {
+    color: "#40E0D0", // Teal color for duration
+  };
+
+  const featuresStyle = {
+    color: "#32CD32", // Lime green color for features
+  };
+
+  const featuresWithStyle = (features) =>
+    features.map((feature, index) => (
+      <li key={index} style={featuresStyle}>
+        {feature}
+      </li>
+    ));
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -24,11 +42,15 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro1}
-              isBlog={false}
-              title="Smart Commute App"
-              description="It is full stack app using ReactJS, NodeJS and
-              MongoDB. In this project I also intergate various APIs to display route between two locations, nearby point-of-interest, weather and AQI."
-              link="https://example.com"
+              title={<span style={titleStyle}>Smart Commute Assistance App</span>}
+              duration={<span style={durationStyle}>July 2023 - November 2023</span>}
+              features={featuresWithStyle([
+                "Enhanced route accuracy by 15%",
+                "Integrated Mapbox, Google, and OpenWeather APIs",
+                "Reduced API response time by 20%"
+              ])}
+              description="A comprehensive commute assistance app featuring route display, points of interest, weather, and AQI information."
+              link="https://github.com/nishitsaha52/CommuteX.git"
               linkText="View Project"
             />
           </Col>
@@ -36,10 +58,14 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro4}
-              isBlog={false}
-              title="Railway Reservation System"
-              description="It is a web app create using Java Maven where I use MySQL as data storage. In this prroject User can serach train between two stations and book tickets."
-              link="https://example.com"
+              title={<span style={titleStyle}>Railway Reservation Portal</span>}
+              duration={<span style={durationStyle}>April 2023 - May 2023</span>}
+              features={featuresWithStyle([
+                "Reduced booking errors by 10%",
+                "Optimized database queries by 25%"
+              ])}
+              description="A portal for checking train times, seat availability, booking tickets, and managing train details."
+              link="https://github.com/nishitsaha52/Railway-Reservation.git"
               linkText="View Project"
             />
           </Col>
@@ -47,10 +73,14 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro2}
-              isBlog={false}
-              title="Online Exam Portal"
-              description="It is a web app create using HTML,CSS and Javascript for frontend, for backend I use PHP and for storage I use MySQL. In this project user can give exam and also check the result"            
-              link="https://example.com"
+              title={<span style={titleStyle}>Online Examination Portal</span>}
+              duration={<span style={durationStyle}>December 2021 - May 2022</span>}
+              features={featuresWithStyle([
+                "Streamlined exam administration for over 100 users",
+                "Reduced server load by 20%"
+              ])}
+              description="An examination portal for adding exam questions, publishing results, and facilitating user exam-taking."
+              link="https://github.com/nishitsaha52/Online-Exam-Portal.git"
               linkText="View Project"
             />
           </Col>
@@ -58,10 +88,14 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro3}
-              isBlog={false}
-              title="Online Notice Board"
-              description="It is a web app create using HTML,CSS and Javascript for frontend, for backend I use PHP and for storage I use MySQL."
-              link="https://example.com"
+              title={<span style={titleStyle}>Online Notice Board</span>}
+              duration={<span style={durationStyle}>July 2021 - November 2021</span>}
+              features={featuresWithStyle([
+                "Improved notice management efficiency by 20%",
+                "Increased notice retrieval speed by 15%"
+              ])}
+              description="An online notice board for adding, updating, and deleting notices."
+              link="https://github.com/nishitsaha52/Online-Notice-Board.git"
               linkText="View Project"
             />
           </Col>
@@ -69,10 +103,30 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pro5}
-              isBlog={false}
-              title="Fitness Tracker"
-              description="A user-friendly Next.js based web app aiding progress tracking, goal management, and efficient navigation to enhance productivity and goal achievement."
-              link="https://example.com"
+              title={<span style={titleStyle}>Fitness Tracker</span>}
+              duration={<span style={durationStyle}>March 2024</span>}
+              features={featuresWithStyle([
+                "Enhanced application performance by 40%",
+                "Reduced load times by 25%",
+                "Increased user goal completion rates by 20%"
+              ])}
+              description="A user-friendly Next.js based web app aiding progress tracking, goal management, and efficient navigation."
+              link="https://github.com/nishitsaha52/Tracker.git"
+              linkText="View Project"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pro1}
+              title={<span style={titleStyle}>AI Chatbot</span>}
+              duration={<span style={durationStyle}>January 2024 - June 2024</span>}
+              features={featuresWithStyle([
+                "Increased user engagement by 25%",
+                "Optimized chatbot response time by 30%"
+              ])}
+              description="An AI chatbot with image URL identification, text-to-speech, and speech-to-text features, integrated with Google and GitHub logins."
+              link="https://github.com/nishitsaha52/AI-Chatbot.git"
               linkText="View Project"
             />
           </Col>
