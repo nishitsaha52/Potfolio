@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Nishit Saha! 👋</h1>
 
 <p align="center">
-  <img src="https://github.com/nishitsaha52/Potfolio/blob/main/cover.png" alt="Portfolio Cover">
+  <img src="https://github.com/nishitsaha52/Potfolio/blob/main/cover1.png" alt="Portfolio Cover">
 </p>
 
 <p align="center">
